@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>The Female Fotographer</title>
+    <title>{{ .Title }} | The Female Fotographer</title>
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
@@ -10,20 +10,12 @@
 
 <nav class="navbar">
     <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Portfolio</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/portfolio/">Portfolio</a></li>
         <li><a href="#">Pricing</a></li>
         <li><a href="#">Contact</a></li>
     </ul>
 </nav>
-
-<section class="hero">
-    <h1>The Female Fotographer</h1>
-    <p>
-        Luxury Wedding Photography Across The UK
-    </p>
-</section>
 
 <div class="container">
     {{ .Content }}
